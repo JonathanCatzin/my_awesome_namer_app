@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:my_awesome_name_app/widgets/my_card.dart';
 import 'package:provider/provider.dart';
 
 import '../widgets/big_card.dart';
@@ -49,6 +50,7 @@ class GeneratorPage extends StatelessWidget {
               ),
             ],
           ),
+          MyCard(),
           Spacer(flex: 2),
         ],
       ),
